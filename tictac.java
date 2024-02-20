@@ -3,6 +3,7 @@ package OOP;
 import java.util.Scanner;
 
 public class tictac {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = 3;
